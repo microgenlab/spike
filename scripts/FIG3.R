@@ -32,6 +32,7 @@ df$status_hedgehog <- gsub("FALSE", "Incorrect", df$status_hedgehog)
 
 head(df)
 
+#download file from hedgehog GitHub
 hg <- read.csv("./inputs/set_names.95.csv", header = T)
 head(hg)
 
